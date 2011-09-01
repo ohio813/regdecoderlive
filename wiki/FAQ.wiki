@@ -17,6 +17,10 @@ If you use pre-compiled binaries, you must choose the one for the architecture (
 
 Please see the <<<<<Instructions>>> file for caveats related to acquisition of each supported target
 
+= How can I learn how to use Registry Decoder? =
+
+For basic usage help, you can read our <<instructions guide>>, and for more advanced usage and hands-on training, please see our private <<<<<<training options>>>>>.
+
 = How are running files collected safely? =
 
 Since the current set of hives will be opened by the operating system, normal file reading procedures are unusable. Also, since these files are updated at unpredictable times, they cannot simply be read from the raw disk.
@@ -28,6 +32,4 @@ Then, depending on which operating system we are running under, we gather the fr
 = Why are 32 and 64 bit versions of the application needed? =
 
 This occurs due to limitations of WMI 
-
-
 

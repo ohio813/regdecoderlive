@@ -20,15 +20,3 @@ Please see the instructions file in our downloads section for caveats related to
 = How can I learn how to use Registry Decoder? =
 
 For basic usage help, you can read our instructions guide, and for more advanced usage and hands-on training, please see our private [http://www.digitalforensicssolutions.com/registrydecoder/content/training training options].
-
-= How are running files collected safely? =
-
-Since the current set of hives will be opened by the operating system, normal file reading procedures are unusable. Also, since these files are updated at unpredictable times, they cannot simply be read from the raw disk.
-
-To avoid these issues, we use the System restore facility of each supported operating system to 'freeze' the currently running files.
-
-Then, depending on which operating system we are running under, we gather the frozen files. For XP systems this is through the System Restore Facility and the Volume Shadow Service for Vista and 7 machines.
-
-= Why are 32 and 64 bit versions of the application needed? =
-
-This occurs due to limitations of WMI 
